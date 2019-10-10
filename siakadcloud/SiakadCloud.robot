@@ -74,6 +74,7 @@ Isi Absensi
     Selenium2Library.Select From List By Value    //td[text()="${nim}"]/following-sibling::td[2]/span/select    ${presensi}
     Selenium2Library.Wait Until Element Is Visible    //td[text()="${nim2}"]    timeout=30s
     Selenium2Library.Select From List By Value    //td[text()="${nim2}"]/following-sibling::td[2]/span/select    ${presensi2}
+    Selenium2Library.Click Element    //div[@class="modal-content"]/div[3]/button
     Sleep    10s
 
 test read csv
